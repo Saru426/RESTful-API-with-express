@@ -1,0 +1,60 @@
+{"level":"info","message":"GET /users","timestamp":"2023-06-20T13:02:47.720Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-20T13:03:22.411Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-20T13:06:46.104Z"}
+{"level":"info","message":"Provided Email: rs@example.com"}
+{"level":"info","message":"Provided Password: 256202"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$CyRo8b/FK4eml.K1N5THV.xKCZ3WQd0kM.1GKWm9SIroOnvrb5szi"}
+{"level":"info","message":"Password Comparison Result: false"}
+{"level":"info","message":"POST /users","timestamp":"2023-06-21T07:34:59.603Z"}
+{"level":"error","message":"Error: (conn=97, no: 1292, SQLState: 22007) Incorrect date value: 'Invalid date' for column `testdatabase`.`users`.`dateOfBirth` at row 1\nsql: INSERT INTO `users` (`id`,`name`,`email`,`password`,`dateOfBirth`,`age`,`gender`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?); - parameters:['Rahul Sharma','rs22@example.com','$2b$10$E0lhkIbQK.IhxSR8fY2lMemibh7wIuFr4Ye2q9aAEPYRoMg5w1VuW','Inva...]"}
+{"level":"info","message":"POST /users","timestamp":"2023-06-21T07:35:19.061Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-21T07:36:19.738Z"}
+{"level":"info","message":"Provided Email: rs22@example.com"}
+{"level":"info","message":"Provided Password: 123456"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$oFRqXBWNv3eKZp1FHJvFpuEEVlWcyxtbbIoWaG0cYISzx06w8KBQy"}
+{"level":"info","message":"Password Comparison Result: false"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-21T07:38:46.966Z"}
+{"level":"info","message":"Provided Email: rs22@example.com"}
+{"level":"info","message":"Provided Password: 123456"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$oFRqXBWNv3eKZp1FHJvFpuEEVlWcyxtbbIoWaG0cYISzx06w8KBQy"}
+{"level":"info","message":"Password Comparison Result: true"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjYsImlhdCI6MTY4NzMzMzEyN30.yg77Q4jPh9R8lmlp_EGyIORNffEPWafikZrSLNIQdzI"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-22T07:52:18.770Z"}
+{"level":"info","message":"Provided Email: rs22@example.com"}
+{"level":"info","message":"Provided Password: 123456"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$oFRqXBWNv3eKZp1FHJvFpuEEVlWcyxtbbIoWaG0cYISzx06w8KBQy"}
+{"level":"info","message":"Password Comparison Result: false"}
+{"level":"info","message":"POST /users","timestamp":"2023-06-22T07:58:10.785Z"}
+{"level":"info","message":"POST /users","timestamp":"2023-06-22T08:02:50.220Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-22T08:03:06.301Z"}
+{"level":"info","message":"Provided Email: ns@example.com"}
+{"level":"info","message":"Provided Password: 123456"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$2DHQztad0eJtZYXH2e23s.zQ8lFt5ZUCOCqg17YBZdgb3VBiManv."}
+{"level":"info","message":"Password Comparison Result: false"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-22T08:04:08.021Z"}
+{"level":"info","message":"Provided Email: ns@example.com"}
+{"level":"info","message":"Provided Password: 123456"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$2DHQztad0eJtZYXH2e23s.zQ8lFt5ZUCOCqg17YBZdgb3VBiManv."}
+{"level":"info","message":"Password Comparison Result: true"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjcsImlhdCI6MTY4NzQyMTA0OH0.29lEgymAOFoRu2bHgv2QmsQax6lactCAmoZdYxgB-pI"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T08:09:49.757Z"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T09:33:06.239Z"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T09:34:18.035Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-22T09:37:07.270Z"}
+{"level":"info","message":"Provided Email: rs@example.com"}
+{"level":"info","message":"Provided Password: 256202"}
+{"level":"info","message":"User: [object SequelizeInstance:user]"}
+{"level":"info","message":"Hashed Password in Database: $2b$10$CyRo8b/FK4eml.K1N5THV.xKCZ3WQd0kM.1GKWm9SIroOnvrb5szi"}
+{"level":"info","message":"Password Comparison Result: true"}
+{"level":"info","message":"Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImlhdCI6MTY4NzQyNjYyN30.8WmlhOSfx7KQ2vy12ArtwB5gQxZL2uF6MnvIUZq6Kfo"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T09:37:39.494Z"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T09:39:22.601Z"}
+{"level":"info","message":"POST /users/login","timestamp":"2023-06-22T09:40:29.282Z"}
+{"level":"info","message":"POST /users/profile","timestamp":"2023-06-22T09:40:38.729Z"}
+{"level":"info","message":"GET /users/profile","timestamp":"2023-06-22T09:41:09.374Z"}
